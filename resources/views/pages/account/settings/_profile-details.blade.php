@@ -290,7 +290,7 @@
                 <button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">
                     @include('partials.general._button-indicator', ['label' => __('Save Changes')])
                 </button>
-            </div>
+            </div>s
             <!--end::Actions-->
         </form>
         <!--end::Form-->
