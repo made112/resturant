@@ -20,9 +20,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return redirect('index');
-// });
+ Route::get('/site', function () {
+     return view('site.index');
+ })->name('landing');
 
 $menu = theme()->getMenu();
 array_walk($menu, function ($val) {
