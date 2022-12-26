@@ -26,6 +26,9 @@ class User extends Authenticatable implements MustVerifyEmail
         'email',
         'api_token',
         'password',
+        'username',
+        'password',
+        'avatar'
     ];
 
     /**
@@ -89,5 +92,9 @@ class User extends Authenticatable implements MustVerifyEmail
     public function info()
     {
         return $this->hasOne(UserInfo::class);
+    }
+    public function address(){
+        return $this->hasOne(Address::class,'user_id');
+
     }
 }
