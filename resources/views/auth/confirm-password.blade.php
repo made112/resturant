@@ -13,13 +13,14 @@
 
             <!--begin::Link-->
             <div class="text-gray-400 fw-bold fs-4">
+                
                 {{ __('This is a secure area of the application. Please confirm your password before continuing.') }}
             </div>
             <!--end::Link-->
         </div>
         <!--begin::Heading-->
 
-        <!--begin::Input group-->
+        <!--begin::Input ffgroup-->
         <div class="fv-row mb-10">
             <label class="form-label fw-bolder text-gray-900 fs-6">{{ __('Password') }}</label>
             <input class="form-control form-control-solid" type="password" name="password" autocomplete="current-password" required autofocus/>
@@ -33,6 +34,9 @@
             </button>
 
             <a href="{{ theme()->getPageUrl('login') }}" class="btn btn-lg btn-light-primary fw-bolder">{{ __('Cancel') }}</a>
+
+            <div></div>
+
         </div>
         <!--end::Actions-->
     </form>
