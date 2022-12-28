@@ -66,4 +66,6 @@ Route::resource('users', UsersController::class);
  */
 Route::get('/auth/redirect/{provider}', [SocialiteLoginController::class, 'redirect']);
 
+Route::view('/From','site.From');
+
 require __DIR__.'/auth.php';
