@@ -19,6 +19,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
     <!-- Vendor CSS-->
+    <link href="../../vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="../../css/main.css" rel="stylesheet" media="all">
     <link href="{{asset('assets/site/css/vendor/select2/select2.min.css')}}" rel="stylesheet" media="all">
     <link href="../../vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
 
@@ -107,6 +112,7 @@
                                             <option>First time registering</option>
                                             <option>Add the restaurant branch</option>
 
+
                                         </select>
                                         <div class="select-dropdown"></div>
                                     </div>
@@ -148,4 +154,5 @@
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
 </html>
+<!-- end document-->
 <!-- end document-->
